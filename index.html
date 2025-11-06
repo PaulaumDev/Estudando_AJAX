@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudando AJAX - IW II</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <div id="ajax-demo">
+      <h2>Let AJAX change this text</h2>
+      <button type="button" onclick="loadDoc('ajax-demo')">Change Content</button>
+    </div>
+    <div class="gui-demo">
+        <h2>Teste de Solicitação Assíncrona</h2>
+        <p>Digite um número de 1 a 10 e clique “Buscar” para ver dados simulados:</p>
+        <input type="number" id="numero" size="3" maxlength="10" placeholder="Digite um número">
+        <button onclick="">Buscar</button>
+        <div id="resultado">
+            Resultado aparecerá aqui
+        </div> 
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
